@@ -7,9 +7,12 @@ function link_file() {
 }
 
 link_file bash_prompt
+link_file bash_aliases
 link_file bashrc
 link_file dircolors
 link_file inputrc
 link_file vim
 link_file vimrc
+
+sudo chmod +x pullall.sh && sudo mv pullall.sh /usr/local/bin/
 ```
