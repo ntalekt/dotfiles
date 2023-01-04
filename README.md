@@ -15,4 +15,5 @@ link_file vim
 link_file vimrc
 
 sudo chmod +x pullall.sh && sudo mv pullall.sh /usr/local/bin/
+sudo chmod +x clean.sh && sudo mv clean.sh /usr/local/bin/
 ```
